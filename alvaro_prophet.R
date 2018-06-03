@@ -31,10 +31,10 @@ our_prophet = function(data, country,objetive){
   forecast <- predict(m, future)
   
   #plot
-  plot(m, forecast)
+  # plot(m, forecast)
   
   #prophet_plot_components(m, forecast)
-  return(m)
+  return(m,forecast)
 }
 
 data = datos
